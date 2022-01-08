@@ -18,28 +18,30 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <section className="slider">
-      {SliderData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? "slide active" : "slide"}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt="travel image" className="image" />
-            )}
-          </div>
-        );
-      })}
-      <div>
-        <a className="left-arrow" onClick={prevSlide}>
-          &laquo; Previous
-        </a>
-        <a classname="right-arrow" onClick={nextSlide}>
-          Next &raquo;
-        </a>
-      </div>
-    </section>
+   
+      <section className="flex justify-center items-center flex-col gap-2 p-8 md:p-10 lg:p-20 xl:p-24">
+        {SliderData.map((slide, index) => {
+          return (
+            <div
+              className={index === current ? "slide active" : "slide"}
+              key={index}
+            >
+              {index === current && (
+                <img src={slide.image} alt="travel image" className="image" />
+              )}
+            </div>
+          );
+        })}
+        <div className="">
+          <a className="left-arrow" onClick={prevSlide}>
+            &laquo; Previous
+          </a>
+          <a classname="right-arrow" onClick={nextSlide}>
+            Next &raquo;
+          </a>
+        </div>
+      </section>
+    
   );
 };
 
