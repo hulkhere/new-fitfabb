@@ -1,11 +1,11 @@
-import Sample from "../src/images/sample.png"
+import Sample from "../src/images/semicrop.png"
 
 export default function Header(){
 
     return (
       <>
         <div className="flex justify-center">
-          <img className="w-48" src={Sample} alt="" />
+          <img className="w-56" src={Sample} alt="" />
         </div>
       </>
     );
