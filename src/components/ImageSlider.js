@@ -36,7 +36,7 @@ const ImageSlider = ({ slides }) => {
           <a className="left-arrow" onClick={prevSlide}>
             &laquo; Previous
           </a>
-          <a classname="right-arrow" onClick={nextSlide}>
+          <a className="right-arrow" onClick={nextSlide}>
             Next &raquo;
           </a>
         </div>
