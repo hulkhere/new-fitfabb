@@ -2,7 +2,7 @@ export default function Ctas(){
 
     return (
       <>
-        <div className="w-full h-max flex justify-center items-center flex-col gap-5 md:flex-row md:p-5">
+        <div className="w-full h-max flex justify-center items-center flex-col gap-5 md:flex-row md:p-5 xl:p-0 gap-10">
           <div className="bg-green-300 w-64 h-56 rounded-xl flex flex-col items-center">
             <h1 className="text-4xl">SILVER</h1>
             <div>
