@@ -4,6 +4,7 @@ import ImageSlider from "../src/components/ImageSlider";
 import { SliderData } from "../src/components/SliderData";
 import Ctas from "../src/ctas";
 import Maps from "../src/maps";
+import Try from "./components/state";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <ImageSlider slides={SliderData} />;
       <Ctas />
       <Maps />
+      
       
     </>
   );
