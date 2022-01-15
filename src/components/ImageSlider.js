@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { SliderData } from "./SliderData";
+import Left from "../icons/left-arrow.png";
+import Right from "../icons/right-arrow.png";
+
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -18,30 +21,28 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-   
-      <section className="flex justify-center items-center flex-col gap-2 p-8 md:p-10 lg:p-20 xl:p-24">
-        {SliderData.map((slide, index) => {
-          return (
-            <div
-              className={index === current ? "slide active" : "slide"}
-              key={index}
-            >
-              {index === current && (
-                <img src={slide.image} alt="travel image" className="image" />
-              )}
-            </div>
-          );
-        })}
-        <div className="">
-          <a className="left-arrow" onClick={prevSlide}>
-            &laquo; Previous
-          </a>
-          <a className="right-arrow" onClick={nextSlide}>
-            Next &raquo;
-          </a>
-        </div>
-      </section>
-    
+    <section className="flex justify-center items-center flex-col gap-2 p-8 md:p-10 lg:p-20 xl:p-24">
+      {SliderData.map((slide, index) => {
+        return (
+          <div
+            className={index === current ? "slide active" : "slide"}
+            key={index}
+          >
+            {index === current && (
+              <img src={slide.image} alt="travel image" className="image" />
+            )}
+          </div>
+        );
+      })}
+      <div className="flex h-auto w-20 gap-5 lg:w-32">
+        <a className="left-arrow" onClick={prevSlide}>
+          <img src={Left} alt="" />
+        </a>
+        <a className="right-arrow" onClick={nextSlide}>
+          <img src={Right} alt="" />
+        </a>
+      </div>
+    </section>
   );
 };
 

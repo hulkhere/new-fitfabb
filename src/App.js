@@ -5,6 +5,7 @@ import { SliderData } from "../src/components/SliderData";
 import Ctas from "../src/ctas";
 import Maps from "../src/maps";
 import Try from "./components/state";
+import Footer from "./footer";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ImageSlider slides={SliderData} />;
       <Ctas />
       <Maps />
+      <Footer />
       
       
     </>
