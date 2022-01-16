@@ -11,7 +11,11 @@ export default function Footer(){
 
     return (
       <>
-        <footer>
+        <footer
+          style={{
+            backgroundImage: `url("${Instagram}")`,
+          }}
+        >
           <div className="flex justify-between items-center md:items-center gap-5 mx-10 lg:mx-40">
             <div className="text-2xl md:text-5xl">
               <h1>
