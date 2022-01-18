@@ -2,7 +2,7 @@ export default function Ctas(){
 
     return (
       <>
-        <div className="w-full h-max flex justify-center items-center flex-col gap-5 md:flex-row md:p-5 xl:p-0 gap-10">
+        <div id="test" className="w-full h-max flex justify-center items-center flex-col gap-5 md:flex-row md:p-5 xl:p-0 gap-10">
           <div className="bg-black w-64 h-56 rounded-2xl   flex flex-col items-center">
             <h1 className="text-4xl" style={{ color: "#C0C0C0" }}>
               SILVER
