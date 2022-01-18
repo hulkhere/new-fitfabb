@@ -1,18 +1,16 @@
 import "./App.css";
 import Header from "../src/header"
-import ImageSlider from "../src/components/ImageSlider";
-import { SliderData } from "../src/components/SliderData";
 import Ctas from "../src/ctas";
 import Maps from "../src/maps";
-import Try from "./components/state";
 import Footer from "./footer";
+import About from "./about";
 
 
 function App() {
   return (
     <>
       <Header />
-      <ImageSlider slides={SliderData} />;
+      <About />
       <Ctas />
       <Maps />
       <Footer />

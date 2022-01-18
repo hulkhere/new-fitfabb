@@ -19,14 +19,7 @@ export default function Footer(){
           }}
         >
           <div className="flex justify-between items-center gap-5 mx-10 lg:mx-40">
-            <div className="text-2xl md:text-5xl">
-              <h1>
-                Your body can stand almost anything. It’s your mind that you
-                have to convince.
-              </h1>
-            </div>
 
-          
             <div className="h-auto w-20 flex gap-5 flex-col">
               <a href="">
                 <img src={Instagram} alt="" />
@@ -49,7 +42,7 @@ export default function Footer(){
             </div>
           </div>
 
-          <div className="w-full flex justify-center text-2xl my-10">
+     <div className="w-full flex justify-center text-2xl my-10">
             ®FIT&FAB - NARSAPUR
           </div>
         </footer>
