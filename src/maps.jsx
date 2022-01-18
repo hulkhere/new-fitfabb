@@ -3,8 +3,7 @@ export default function Maps() {
   return (
     <>
       <div className="mt-12">
-        <h1 className="text-4xl bg-red-600 flex justify-center">
-            OUR LOCATION</h1>
+        
       </div>
       <div className="flex justify-center p-5 mt-10">
         <Iframe
