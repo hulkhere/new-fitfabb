@@ -2,7 +2,7 @@ export default function About(){
 
     return (
       <>
-        <aside className="bg-black flex flex-col justify-center items-center text-center my-5">
+        <aside className="bg-black font flex flex-col justify-center items-center text-center my-5">
           <div style={{maxWidth:"40rem"}} className="w-full rounded-2xl mx-5 py-10 text-4xl lg:text-6xl bg-blue-700 text-white">
             JOIN TODAY <br /> AT <br /> 30% OFFER
           </div>
