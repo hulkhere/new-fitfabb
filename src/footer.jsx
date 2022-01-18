@@ -12,38 +12,42 @@ export default function Footer(){
 
     return (
       <>
-        <footer
-          className="bg-cover text-green-300"
-          style={{
-            backgroundImage: `url("${ImgFooter}")`,
-          }}
-        >
-          <div className="flex justify-between items-center gap-5 mx-10 lg:mx-40">
-
-            <div className="h-auto w-20 flex gap-5 flex-col">
-              <a href="">
-                <img src={Instagram} alt="" />
-              </a>
-              <a href="">
-                <img src={Whatsapp} alt="" />
-              </a>
-              <a href="">
-                <img src={Call} alt="" />
-              </a>
-              <a href="">
-                <img src={Facebook} alt="" />
-              </a>
-              <a href="">
-                <img src={Gmail} alt="" />
-              </a>
-              <a href="">
-                <img src={Youtube} alt="" />
-              </a>
-            </div>
+        <footer className="bg-cover text-red-600 flex flex-col gap-5">
+          <div className="w-full flex justify-center items-center gap-16">
+            <h1 className="">Visit our instagram</h1>
+            <a href="">
+              <img className="w-10" src={Instagram} alt="" />
+            </a>
           </div>
-
-     <div className="w-full flex justify-center text-2xl my-10">
-            ®FIT&FAB - NARSAPUR
+          <div className="w-full flex justify-center items-center gap-16">
+            <h1 className="">Visit our instagram</h1>
+            <a href="">
+              <img className="w-10" src={Whatsapp} alt="" />
+            </a>
+          </div>
+          <div className="w-full flex justify-center items-center gap-16">
+            <h1 className="">Visit our instagram</h1>
+            <a href="tel:+917674937893">
+              <img className="w-10" src={Call} alt="" />
+            </a>
+          </div>
+          <div className="w-full flex justify-center items-center gap-16">
+            <h1 className="">Visit our instagram</h1>
+            <a href="">
+              <img className="w-10" src={Facebook} alt="" />
+            </a>
+          </div>
+          <div className="w-full flex justify-center items-center gap-16">
+            <h1 className="">Visit our instagram</h1>
+            <a href="">
+              <img className="w-10" src={Gmail} alt="" />
+            </a>
+          </div>
+          <div className="w-full flex justify-center items-center gap-16">
+            <h1 className="">Visit our instagram</h1>
+            <a href="">
+              <img className="w-10" src={Youtube} alt="" />
+            </a>
           </div>
         </footer>
       </>
